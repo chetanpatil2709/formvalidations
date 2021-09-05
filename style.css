@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.page_wrap {
+  max-width: 360px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid #ddd;
+}
+.page_form {
+  padding: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+  clear: both;
+  width: 100%;
+}
+.form-group .form-control {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  width: 100%;
+  outline: none;
+  border-radius: 2px;
+}
+.form-group .form-control:focus {
+  border-color: slateblue;
+}
+.form-group > label {
+  display: block;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.button-submit,
+.button-validate-otp {
+  padding: 11px 25px;
+  background: #4caf50;
+  border: 0;
+  border-radius: 2px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+}
+.button-validate-otp {
+  margin-top: 15px;
+}
+.form-control.mobile {
+  background-position: right 5px center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  padding-right: 50px;
+}
+.form-feedback {
+  font-size: 14px;
+  padding-top: 4px;
+  color: #f44336;
+}
+.form-feedback > span {
+  color: #4caf50;
+  font-weight: 500;
+}
+.message_box {
+  padding: 20px;
+  width: 100%;
+}
+.otp-input-control {
+  padding: 2px 15px;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 2px;
+  line-height: 30px;
+  font-size: 21px;
+  width: 230px;
+  letter-spacing: 30px;
+}
+.otp-feedback {
+  margin-top: 5px;
+}
