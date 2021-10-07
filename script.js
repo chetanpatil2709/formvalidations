@@ -37,12 +37,12 @@ let state = {
   978: "Kerala",
   979: "Sikkim",
   980: "Andaman and Nicobar Islands	",
-  961: "Dadra & Nagar Haveli and Daman & Diu	",
-  962: "Lakshadweep",
-  963: "Puducherry",
-  964: "Ladakh",
-  965: "Delhi",
-  966: "Chandigarh",
+  965: "Dadra & Nagar Haveli and Daman & Diu	",
+  966: "Lakshadweep",
+  967: "Puducherry",
+  968: "Ladakh",
+  969: "Delhi",
+  970: "Chandigarh",
 };
 
 // name validaions
