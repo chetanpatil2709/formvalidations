@@ -87,3 +87,9 @@ body {
 .otp-feedback {
   margin-top: 5px;
 }
+.note{
+  max-width: 360px;
+  margin: 0 auto;
+  /* border: 1px solid #ddd; */
+  margin-top: 20px;
+}
